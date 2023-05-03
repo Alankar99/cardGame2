@@ -1,0 +1,11 @@
+
+
+.header{
+   contain: layout;
+   color: aqua;
+}
+
+.cards
+{
+   display:flex;
+}

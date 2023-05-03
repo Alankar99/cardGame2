@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>Card Game</title><link rel = stylesheet href=cardgame.css>
+<script src=cardgame.js></script>
+</head>
+<body>
+<div class =container>
+<div class=player>
+<div class=player-name><h2>Kit</h2></div>
+<div class = cards>
+<div class=card36 onclick=flipCard(this.id,0)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/spade/eight.png></div>
+</div></div></div>
+<div class=card03 onclick=flipCard(this.id,0)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/club/five.png></div>
+</div></div></div>
+<div class=card29 onclick=flipCard(this.id,0)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/heart/jack.png></div>
+</div></div></div>
+</div>
+<button class=show-highest-card disabled id=btn0onclick= showHighestCard(com.psl.gems.Entities.Card@7ba4f24f)>Show Highest Card</button>
+</div>
+<div class=player>
+<div class=player-name><h2>Kut</h2></div>
+<div class = cards>
+<div class=card00 onclick=flipCard(this.id,1)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/club/two.png></div>
+</div></div></div>
+<div class=card19 onclick=flipCard(this.id,1)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/diamond/jack.png></div>
+</div></div></div>
+<div class=card35 onclick=flipCard(this.id,1)>
+<div class=card-inner>
+<div class=card-back><img src=images/back.jpeg alt="back of card"></div>
+<div class=card-front><img src=images/spade/seven.png></div>
+</div></div></div>
+</div>
+<button class=show-highest-card disabled id=btn1onclick= showHighestCard(com.psl.gems.Entities.Card@27d6c5e0)>Show Highest Card</button>
+</div>
+<button class=decide-winner disabled id = btnwinner onclick= decideWinner(btnwinner)>Decide Winner</button>
+</div>
+</body>
+</html>
